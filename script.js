@@ -10,3 +10,4 @@ function getFormvalue(event) {
     alert(firstName + ' ' + lastName);
 
 }
+document.getElementById('loginForm').addEventListener('submit', getFormvalue);
